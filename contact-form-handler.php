@@ -5,7 +5,7 @@
 
 
 
-  $email_from = 'portfolio@bellamendoza.edu'
+  $email_from = 'bellamza11@gmail.com'
   $email_subject = "New Message From Portfolio"
 
   $email_body = "Message from $name \n".

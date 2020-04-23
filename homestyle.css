@@ -1,0 +1,123 @@
+body{
+	margin:0;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	background-color:#fafafa;
+
+
+}
+
+#home {
+	height: 100vh;
+	background: linear-gradient(rgba(91, 91, 91, 0.35), rgba(91, 91, 91, 0.35)), url(whitebrick.jpg);
+	background-size:30% 40%;
+	background-position:center;
+
+
+}
+
+#directory {
+	text-align: right;
+}
+
+h1 {
+	margin:0;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color:black;
+	font-weight: 60;
+	font-stretch: expanded;
+	position:absolute;
+	line-height: 160px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-75%) translateY(-50%);
+	font-size:120px;
+
+
+}
+
+
+
+#about {
+	height: 80vh;
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+p {
+	width: 80%;
+	font-family: 'Lato', sans-serif;
+	line-height:50px;
+	font-size: 22px;
+	color: black;
+
+}
+.row {
+	display: flex;
+	padding: 0 4px;
+	margin-bottom: 20px;
+
+}
+
+.column {
+	flex: 23%;
+	max-width: 25%;
+	padding: 0 0.5%;
+}
+
+img {
+	max-width: 100%
+
+	max-height: auto;
+	transform:rotate(90deg);
+	margin-top: 2.5%;
+}
+
+#directory a {
+	color: black;
+	font-size: 17px;
+	font-weight: bolder;
+	margin-right: 42px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+
+
+
+}
+#directory {
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#directory a:hover {
+	color: #fff;
+}
+#logo {
+	position: absolute;
+  top: 0%;
+  left: 10%;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+	border-radius: 50%;
+}
+
+img {
+	float: left;
+	width: 350px;
+	transform: rotate(360deg);
+	margin-top: 185px;
+	margin-right: 100px;
+
+	margin-bottom: 50px;
+	border-radius: 50%;
